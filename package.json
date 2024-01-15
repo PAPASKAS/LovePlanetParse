@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "main": "./src/App.ts",
+  "scripts": {
+    "start": "ts-node ./src/App.ts"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.16.0",
+    "typescript": "^5.3.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.7",
+    "@types/node": "^20.11.0",
+    "@types/selenium-webdriver": "^4.1.21"
+  }
+}
